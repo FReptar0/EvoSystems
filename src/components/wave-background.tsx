@@ -14,7 +14,7 @@ export const WaveBackground: React.FC<WaveBackgroundProps> = ({
   
   return (
     <Waves
-      lineColor={isHero ? "#22c55e" : "#a7f3d0"}
+      lineColor={isHero ? "#2563eb" : "#60a5fa"}
       backgroundColor="transparent"
       waveSpeedX={0.008}
       waveSpeedY={0.003}
