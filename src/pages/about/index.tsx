@@ -58,7 +58,7 @@ export default function AboutPage() {
       icon: StarIcon,
       title: "Excelencia",
       description: "Nos comprometemos con la calidad en cada proyecto que desarrollamos",
-      color: "yellow"
+      color: "orange"
     },
     {
       icon: UsersIcon,
