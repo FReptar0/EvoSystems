@@ -1,4 +1,5 @@
 import React from "react";
+
 import Waves from "../blocks/Backgrounds/Waves/Waves";
 
 interface WaveBackgroundProps {
@@ -14,18 +15,18 @@ export const WaveBackground: React.FC<WaveBackgroundProps> = ({
   
   return (
     <Waves
-      lineColor={isHero ? "#2563eb" : "#60a5fa"}
       backgroundColor="transparent"
-      waveSpeedX={0.008}
-      waveSpeedY={0.003}
+      className={className}
+      friction={0.92}
+      lineColor={isHero ? "#2563eb" : "#60a5fa"}
+      maxCursorMove={80}
+      tension={0.008}
       waveAmpX={isHero ? 45 : 35}
       waveAmpY={isHero ? 20 : 15}
+      waveSpeedX={0.008}
+      waveSpeedY={0.003}
       xGap={12}
       yGap={isHero ? 40 : 30}
-      friction={0.92}
-      tension={0.008}
-      maxCursorMove={80}
-      className={className}
     />
   );
 };

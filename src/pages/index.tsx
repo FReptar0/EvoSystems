@@ -9,7 +9,6 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import {
   CodeIcon,
-  DatabaseIcon,
   MobileIcon,
   WebIcon,
   DesktopIcon,
