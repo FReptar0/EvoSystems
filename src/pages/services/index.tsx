@@ -6,7 +6,6 @@ import { Link } from "@heroui/link";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import {
-  CodeIcon,
   WebIcon,
   MobileIcon,
   ERPIcon,

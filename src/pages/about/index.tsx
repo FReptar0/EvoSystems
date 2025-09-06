@@ -13,9 +13,6 @@ import {
   CheckIcon,
   WhatsAppIcon,
   UsersIcon,
-  WebIcon,
-  MobileIcon,
-  DatabaseIcon,
   LinkedInIcon,
 } from "@/components/icons";
 import { WaveBackground } from "@/components/wave-background";
@@ -79,17 +76,17 @@ export default function AboutPage() {
       <Head>
         <title>Sobre Nosotros - Desarrollo de Software | EvoSystems</title>
         <meta
-          name="description"
           content="Conoce a EvoSystems: equipo especializado en desarrollo de software con 5+ años de experiencia. Desarrolladores senior, arquitectos de software y especialistas en UX/UI."
+          name="description"
         />
         <meta
-          name="keywords"
           content="evosystems equipo, desarrolladores software méxico, empresa desarrollo web, programadores especializados, software profesional méxico"
+          name="keywords"
         />
-        <meta property="og:title" content="Sobre Nosotros - Desarrollo de Software | EvoSystems" />
+        <meta content="Sobre Nosotros - Desarrollo de Software | EvoSystems" property="og:title" />
         <meta
-          property="og:description"
           content="Conoce nuestro equipo de desarrolladores y nuestra pasión por crear soluciones tecnológicas innovadoras."
+          property="og:description"
         />
       </Head>
       
