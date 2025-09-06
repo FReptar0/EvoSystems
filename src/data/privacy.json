@@ -1,0 +1,66 @@
+{
+  "privacyPolicy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "2025-01-25",
+    "version": "1.0",
+    "companyInfo": {
+      "name": "EvoSystems",
+      "email": "info@evosystems.dev",
+      "address": "[DIRECCIÓN A COMPLETAR]"
+    },
+    "sections": [
+      {
+        "id": "introduction",
+        "title": "Introducción",
+        "content": "[CONTENIDO A REDACTAR] - Compromiso con la privacidad"
+      },
+      {
+        "id": "data_collection",
+        "title": "Información que Recopilamos",
+        "content": "[CONTENIDO A REDACTAR] - Tipos de datos recopilados",
+        "dataTypes": [
+          {
+            "type": "Información personal",
+            "description": "[CONTENIDO A REDACTAR] - Nombre, email, teléfono, etc.",
+            "purpose": "Comunicación y reservas"
+          },
+          {
+            "type": "Información médica básica",
+            "description": "[CONTENIDO A REDACTAR] - Condiciones de salud relevantes",
+            "purpose": "Seguridad en actividades"
+          },
+          {
+            "type": "Información de contacto de emergencia",
+            "description": "[CONTENIDO A REDACTAR]",
+            "purpose": "Emergencias durante actividades"
+          }
+        ]
+      },
+      {
+        "id": "data_usage",
+        "title": "Cómo Usamos su Información",
+        "content": "[CONTENIDO A REDACTAR] - Usos de la información recopilada"
+      },
+      {
+        "id": "data_sharing",
+        "title": "Compartir Información",
+        "content": "[CONTENIDO A REDACTAR] - Con quién y cuándo compartimos datos"
+      },
+      {
+        "id": "data_security",
+        "title": "Seguridad de Datos",
+        "content": "[CONTENIDO A REDACTAR] - Medidas de seguridad implementadas"
+      },
+      {
+        "id": "user_rights",
+        "title": "Sus Derechos",
+        "content": "[CONTENIDO A REDACTAR] - Derechos del usuario sobre sus datos"
+      },
+      {
+        "id": "contact",
+        "title": "Contacto",
+        "content": "[CONTENIDO A REDACTAR] - Cómo contactar para temas de privacidad"
+      }
+    ]
+  }
+}

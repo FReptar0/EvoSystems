@@ -1,0 +1,48 @@
+{
+  "termsAndConditions": {
+    "title": "Términos y Condiciones",
+    "lastUpdated": "2025-01-25",
+    "version": "1.0",
+    "sections": [
+      {
+        "id": "acceptance",
+        "title": "Aceptación de Términos",
+        "content": "[CONTENIDO A REDACTAR] - Aceptación de términos al usar el servicio"
+      },
+      {
+        "id": "services",
+        "title": "Descripción de Servicios",
+        "content": "[CONTENIDO A REDACTAR] - Descripción detallada de servicios de aventura ofrecidos"
+      },
+      {
+        "id": "responsibilities",
+        "title": "Responsabilidades del Cliente",
+        "content": "[CONTENIDO A REDACTAR] - Obligaciones y responsabilidades del participante",
+        "subsections": [
+          {
+            "title": "Condición física",
+            "content": "[CONTENIDO A REDACTAR]"
+          },
+          {
+            "title": "Seguimiento de instrucciones",
+            "content": "[CONTENIDO A REDACTAR]"
+          },
+          {
+            "title": "Equipamiento personal",
+            "content": "[CONTENIDO A REDACTAR]"
+          }
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Limitación de Responsabilidad",
+        "content": "[CONTENIDO A REDACTAR] - Límites de responsabilidad de la empresa"
+      },
+      {
+        "id": "force_majeure",
+        "title": "Fuerza Mayor",
+        "content": "[CONTENIDO A REDACTAR] - Eventos de fuerza mayor y sus implicaciones"
+      }
+    ]
+  }
+}

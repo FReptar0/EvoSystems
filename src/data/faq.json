@@ -1,0 +1,68 @@
+{
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Encuentra respuestas a las preguntas más comunes sobre nuestras aventuras",
+    "categories": [
+      {
+        "id": "general",
+        "name": "General",
+        "questions": [
+          {
+            "id": "q1",
+            "question": "¿Qué tipo de experiencia necesito para participar?",
+            "answer": "Ofrecemos aventuras para todos los niveles, desde principiantes hasta expertos. Cada actividad está claramente categorizada por nivel de dificultad.",
+            "tags": ["experiencia", "niveles", "principiantes"]
+          },
+          {
+            "id": "q2", 
+            "question": "¿Qué incluyen los paquetes de aventura?",
+            "answer": "[CONTENIDO A REDACTAR] - Guías certificados, equipamiento, seguros, etc.",
+            "tags": ["paquetes", "incluido", "servicios"]
+          }
+        ]
+      },
+      {
+        "id": "reservas",
+        "name": "Reservas y Pagos",
+        "questions": [
+          {
+            "id": "q3",
+            "question": "¿Cómo puedo hacer una reserva?",
+            "answer": "[CONTENIDO A REDACTAR] - Proceso de reserva paso a paso",
+            "tags": ["reservas", "proceso", "booking"]
+          },
+          {
+            "id": "q4",
+            "question": "¿Qué métodos de pago aceptan?",
+            "answer": "[CONTENIDO A REDACTAR] - Métodos de pago disponibles",
+            "tags": ["pago", "métodos", "transferencia"]
+          }
+        ]
+      },
+      {
+        "id": "equipamiento",
+        "name": "Equipamiento",
+        "questions": [
+          {
+            "id": "q5",
+            "question": "¿Necesito traer mi propio equipamiento?",
+            "answer": "[CONTENIDO A REDACTAR] - Qué se incluye y qué debe traer el cliente",
+            "tags": ["equipamiento", "incluido", "personal"]
+          }
+        ]
+      },
+      {
+        "id": "seguridad",
+        "name": "Seguridad",
+        "questions": [
+          {
+            "id": "q6",
+            "question": "¿Qué medidas de seguridad implementan?",
+            "answer": "[CONTENIDO A REDACTAR] - Protocolos de seguridad, seguros, emergencias",
+            "tags": ["seguridad", "protocolos", "seguros"]
+          }
+        ]
+      }
+    ]
+  }
+}

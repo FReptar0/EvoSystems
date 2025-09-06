@@ -1,0 +1,82 @@
+{
+  "servicePolicy": {
+    "title": "💻 EVOSYSTEMS - POLÍTICAS DE SERVICIO Y DESARROLLO",
+    "lastUpdated": "2025-01-25",
+    "version": "1.0",
+    "policies": [
+      {
+        "id": "project_scope",
+        "title": "1. Alcance del proyecto",
+        "description": "EvoSystems definirá el alcance del proyecto mediante:",
+        "details": [
+          "Especificaciones técnicas detalladas",
+          "Cronograma de entregables",
+          "Recursos asignados y tecnologías a utilizar"
+        ],
+        "action": "Cualquier cambio en el alcance requerirá una adenda al contrato con costos adicionales."
+      },
+      {
+        "id": "development_process",
+        "title": "2. Proceso de desarrollo",
+        "description": "Nuestro proceso de desarrollo incluye:",
+        "details": [
+          "Metodologías ágiles con entregas iterativas",
+          "Revisiones periódicas con el cliente",
+          "Testing y control de calidad continuo",
+          "Documentación técnica completa"
+        ],
+        "action": "El cliente deberá participar activamente en las revisiones programadas."
+      },
+      {
+        "id": "timeline_adjustments",
+        "title": "3. Ajustes en cronograma",
+        "description": "Los tiempos de entrega pueden modificarse debido a:",
+        "details": [
+          "Cambios en requerimientos por parte del cliente",
+          "Complejidad técnica no prevista inicialmente",
+          "Dependencias externas o integraciones complejas",
+          "Feedback tardío o cambios en aprobaciones"
+        ],
+        "action": "Se comunicará inmediatamente cualquier ajuste con nuevo cronograma estimado."
+      },
+      {
+        "id": "client_responsibilities",
+        "title": "4. Responsabilidades del cliente",
+        "description": "El cliente deberá proporcionar:",
+        "details": [
+          "Acceso a sistemas y datos necesarios",
+          "Feedback oportuno en las revisiones",
+          "Recursos internos para pruebas y validaciones",
+          "Aprobaciones en los tiempos establecidos"
+        ],
+        "action": "EvoSystems no se hace responsable por retrasos causados por falta de colaboración del cliente."
+      },
+      {
+        "id": "payments_terms",
+        "title": "5. Términos de pago y garantías",
+        "description": "Condiciones de pago:",
+        "details": [
+          "Pago inicial del 50% para iniciar el proyecto",
+          "Pagos parciales según avance de hitos",
+          "Pago final contra entrega y aceptación"
+        ],
+        "paymentRule": {
+          "title": "Política de Pagos",
+          "requirement": "Los pagos deben realizarse según calendario acordado.",
+          "consequence": "El retraso en pagos puede resultar en suspensión temporal del proyecto."
+        },
+        "warranty": {
+          "title": "Garantía de Software",
+          "period": "3 meses de soporte post-entrega",
+          "coverage": "Corrección de bugs y errores de funcionamiento",
+          "exclusions": "No incluye nuevas funcionalidades o cambios de diseño"
+        }
+      }
+    ],
+    "contact": {
+      "email": "info@evosystems.dev",
+      "phone": "+52 55 0000 0000",
+      "whatsapp": "https://wa.me/525500000000?text=Hola%2C%20me%20gustaría%20conocer%20las%20políticas%20de%20servicio%20de%20EvoSystems"
+    }
+  }
+}

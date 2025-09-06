@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.goat-hiking.com
+
+# Sitemaps
+Sitemap: https://www.goat-hiking.com/sitemap.xml
