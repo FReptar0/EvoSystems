@@ -22,21 +22,21 @@ import { Footer } from "@/components/footer";
 export default function AboutPage() {
   const teamMembers = [
     {
-      name: "Carlos Rodríguez",
+      name: "Fernando Rodríguez",
       role: "CEO & Lead Developer",
       experience: "8+ años de experiencia",
       specialties: ["Full Stack", "Architecture", "Leadership"],
       technologies: ["React", "Node.js", "Python", "AWS"]
     },
     {
-      name: "María González",
+      name: "Daniel I. Carrillo",
       role: "Frontend Specialist",
       experience: "6+ años de experiencia", 
       specialties: ["UX/UI", "React", "Mobile"],
       technologies: ["React", "Next.js", "React Native", "Figma"]
     },
     {
-      name: "Jorge López",
+      name: "Yahir Diaz",
       role: "Backend Developer",
       experience: "7+ años de experiencia",
       specialties: ["APIs", "Databases", "DevOps"],

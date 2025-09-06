@@ -420,15 +420,18 @@ export const UsersIcon: React.FC<IconSvgProps> = ({
   ...props
 }) => (
   <svg
+    fill="none"
     height={size || height}
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
     viewBox="0 0 24 24"
     width={size || width}
     {...props}
   >
-    <path
-      d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 18.5 7h-5c-.8 0-1.5.7-1.5 1.5v7C12 17.1 13.9 19 16.5 19h1v3h2.5zm-11.5 0v-6h2.5l-2.54-7.63A1.5 1.5 0 0 0 7.5 7h-5c-.8 0-1.5.7-1.5 1.5v7C1 17.1 2.9 19 5.5 19h1v3H9zm-1-10.5c0-1.38 1.12-2.5 2.5-2.5s2.5 1.12 2.5 2.5S7.88 13 6.5 13 4 11.88 4 10.5z"
-      fill="currentColor"
-    />
+    <circle cx="12" cy="8" r="4" />
+    <path d="M4 20c0-4 4-6 8-6s8 2 8 6" />
   </svg>
 );
 
