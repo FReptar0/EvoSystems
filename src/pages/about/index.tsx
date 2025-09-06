@@ -29,7 +29,7 @@ export default function AboutPage() {
       technologies: ["React", "Node.js", "Python", "AWS"]
     },
     {
-      name: "Daniel I. Carrillo",
+      name: "Daniel Carrillo",
       role: "Frontend Specialist",
       experience: "6+ años de experiencia", 
       specialties: ["UX/UI", "React", "Mobile"],
