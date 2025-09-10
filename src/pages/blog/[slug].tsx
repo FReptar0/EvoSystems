@@ -301,9 +301,11 @@ export default function BlogPostPage({ post, relatedPosts, categories, locale }:
                           // If it contains list items, wrap in appropriate list
                           if (paragraph.includes('<li class="numbered-item"')) {
                             const items = paragraph.split('\n').filter(line => line.includes('<li class="numbered-item"'));
+
                             return `<ol class="numbered-list">${items.join('')}</ol>`;
                           } else if (paragraph.includes('<li class="bullet-item"')) {
                             const items = paragraph.split('\n').filter(line => line.includes('<li class="bullet-item"'));
+
                             return `<ul class="bullet-list">${items.join('')}</ul>`;
                           } else if (paragraph.includes('<h1>') || paragraph.includes('<h2>') || paragraph.includes('<h3>') || paragraph.includes('<pre>')) {
                             // Headers and code blocks don't need paragraph wrapper
@@ -312,13 +314,14 @@ export default function BlogPostPage({ post, relatedPosts, categories, locale }:
                             // Regular paragraph - preserve line breaks within
                             return `<p>${paragraph.replace(/\n/g, '<br>')}</p>`;
                           }
+
                           return '';
                         })
                         .join('')
                     }}
                     className="article-content text-white leading-relaxed text-lg space-y-6"
                   />
-                  <style jsx>{`
+                  <style>{`
                     .article-content p {
                       margin-bottom: 1.5rem;
                       line-height: 1.75;
@@ -644,7 +647,7 @@ export default function BlogPostPage({ post, relatedPosts, categories, locale }:
           </footer>
         </div>
       </main>
-      
+
       <Footer />
     </>
   );
