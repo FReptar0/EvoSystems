@@ -8,6 +8,7 @@ import { SearchIcon, CalendarIcon, ClockIcon, CheckIcon } from '@/components/ico
 import { Navbar } from '@/components/navbar';
 import { title, subtitle } from '@/components/primitives';
 import { WaveBackground } from '@/components/wave-background';
+import { Footer } from '@/components/footer';
 import { useTranslations } from '@/config/i18n';
 import blogData from '@/data/blog-posts.json';
 
@@ -335,6 +336,8 @@ export default function BlogPage({ posts, categories, locale }: BlogPageProps) {
           )}
         </div>
       </main>
+
+      <Footer />
     </>
   );
 }

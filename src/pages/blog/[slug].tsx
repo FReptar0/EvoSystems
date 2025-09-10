@@ -8,6 +8,7 @@ import { Card, CardBody, Chip, Button } from '@heroui/react';
 import { ClockIcon, CalendarIcon, UserIcon, LinkedInIcon, WhatsAppIcon, EmailIcon } from '@/components/icons';
 import { Navbar } from '@/components/navbar';
 import { WaveBackground } from '@/components/wave-background';
+import { Footer } from '@/components/footer';
 import { useTranslations } from '@/config/i18n';
 import blogData from '@/data/blog-posts.json';
 
@@ -643,6 +644,8 @@ export default function BlogPostPage({ post, relatedPosts, categories, locale }:
           </footer>
         </div>
       </main>
+      
+      <Footer />
     </>
   );
 }
