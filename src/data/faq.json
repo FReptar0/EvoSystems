@@ -1,7 +1,7 @@
 {
   "faq": {
     "title": "Preguntas Frecuentes",
-    "subtitle": "Encuentra respuestas a las preguntas más comunes sobre nuestras aventuras",
+    "subtitle": "Encuentra respuestas a las preguntas más comunes sobre nuestros servicios de desarrollo de software",
     "categories": [
       {
         "id": "general",
@@ -9,57 +9,93 @@
         "questions": [
           {
             "id": "q1",
-            "question": "¿Qué tipo de experiencia necesito para participar?",
-            "answer": "Ofrecemos aventuras para todos los niveles, desde principiantes hasta expertos. Cada actividad está claramente categorizada por nivel de dificultad.",
-            "tags": ["experiencia", "niveles", "principiantes"]
+            "question": "¿Qué tipo de proyectos desarrollan?",
+            "answer": "Desarrollamos aplicaciones web, móviles, sistemas ERP, integraciones, análisis de datos y aplicaciones de escritorio. Trabajamos con empresas de todos los tamaños, desde startups hasta corporativos.",
+            "tags": ["proyectos", "servicios", "desarrollo"]
           },
           {
             "id": "q2", 
-            "question": "¿Qué incluyen los paquetes de aventura?",
-            "answer": "[CONTENIDO A REDACTAR] - Guías certificados, equipamiento, seguros, etc.",
-            "tags": ["paquetes", "incluido", "servicios"]
-          }
-        ]
-      },
-      {
-        "id": "reservas",
-        "name": "Reservas y Pagos",
-        "questions": [
-          {
-            "id": "q3",
-            "question": "¿Cómo puedo hacer una reserva?",
-            "answer": "[CONTENIDO A REDACTAR] - Proceso de reserva paso a paso",
-            "tags": ["reservas", "proceso", "booking"]
+            "question": "¿Qué tecnologías utilizan?",
+            "answer": "Utilizamos las tecnologías más modernas y demandadas del mercado: React, Next.js, Node.js, Python, React Native, Flutter, Odoo ERP, Power BI, Tableau, PostgreSQL, MongoDB, AWS, Docker y más.",
+            "tags": ["tecnologías", "stack", "herramientas"]
           },
           {
-            "id": "q4",
-            "question": "¿Qué métodos de pago aceptan?",
-            "answer": "[CONTENIDO A REDACTAR] - Métodos de pago disponibles",
-            "tags": ["pago", "métodos", "transferencia"]
+            "id": "q3",
+            "question": "¿Cuánto tiempo toma desarrollar un proyecto?",
+            "answer": "Depende del tipo y complejidad del proyecto. Una aplicación web básica puede tomar 4-8 semanas, mientras que sistemas ERP complejos pueden requerir 3-6 meses. Siempre proporcionamos un cronograma detallado.",
+            "tags": ["tiempo", "duración", "cronograma"]
           }
         ]
       },
       {
-        "id": "equipamiento",
-        "name": "Equipamiento",
+        "id": "proceso",
+        "name": "Proceso de Trabajo",
         "questions": [
+          {
+            "id": "q4",
+            "question": "¿Cómo es el proceso de desarrollo?",
+            "answer": "Seguimos metodologías ágiles: 1) Análisis de requisitos, 2) Diseño y arquitectura, 3) Desarrollo iterativo, 4) Pruebas continuas, 5) Despliegue, 6) Soporte post-lanzamiento.",
+            "tags": ["proceso", "metodología", "ágil"]
+          },
           {
             "id": "q5",
-            "question": "¿Necesito traer mi propio equipamiento?",
-            "answer": "[CONTENIDO A REDACTAR] - Qué se incluye y qué debe traer el cliente",
-            "tags": ["equipamiento", "incluido", "personal"]
+            "question": "¿Proporcionan soporte después del lanzamiento?",
+            "answer": "Sí, ofrecemos 3 meses de soporte gratuito después del lanzamiento. También tenemos planes de mantenimiento mensual que incluyen actualizaciones, respaldos y soporte técnico continuo.",
+            "tags": ["soporte", "mantenimiento", "post-lanzamiento"]
+          },
+          {
+            "id": "q6",
+            "question": "¿Puedo hacer cambios durante el desarrollo?",
+            "answer": "Por supuesto. Trabajamos con sprints de 2 semanas que permiten ajustes y cambios. Los cambios menores están incluidos, cambios mayores se evalúan por separado.",
+            "tags": ["cambios", "flexibilidad", "sprints"]
           }
         ]
       },
       {
-        "id": "seguridad",
-        "name": "Seguridad",
+        "id": "costos",
+        "name": "Costos y Pagos",
         "questions": [
           {
-            "id": "q6",
-            "question": "¿Qué medidas de seguridad implementan?",
-            "answer": "[CONTENIDO A REDACTAR] - Protocolos de seguridad, seguros, emergencias",
-            "tags": ["seguridad", "protocolos", "seguros"]
+            "id": "q7",
+            "question": "¿Cómo calculan los precios?",
+            "answer": "Los precios se basan en la complejidad, tiempo estimado y recursos necesarios. Proporcionamos cotizaciones detalladas y transparentes sin costos ocultos.",
+            "tags": ["precios", "cotización", "costos"]
+          },
+          {
+            "id": "q8",
+            "question": "¿Qué métodos de pago aceptan?",
+            "answer": "Aceptamos transferencias bancarias, depósitos y pagos en línea. El pago se divide en hitos: 40% al inicio, 40% a medio desarrollo y 20% al finalizar.",
+            "tags": ["pago", "métodos", "hitos"]
+          },
+          {
+            "id": "q9",
+            "question": "¿Ofrecen descuentos para múltiples proyectos?",
+            "answer": "Sí, ofrecemos descuentos del 10-15% para clientes que contraten múltiples proyectos o servicios de mantenimiento anual.",
+            "tags": ["descuentos", "múltiples", "anual"]
+          }
+        ]
+      },
+      {
+        "id": "tecnico",
+        "name": "Aspectos Técnicos",
+        "questions": [
+          {
+            "id": "q10",
+            "question": "¿Proporcionan hosting y dominio?",
+            "answer": "Ayudamos con la configuración inicial, pero recomendamos que el cliente tenga control directo del hosting y dominio. Sugerimos proveedores confiables según las necesidades.",
+            "tags": ["hosting", "dominio", "despliegue"]
+          },
+          {
+            "id": "q11",
+            "question": "¿Los proyectos son escalables?",
+            "answer": "Absolutamente. Diseñamos todas las aplicaciones pensando en el crecimiento futuro, utilizando arquitecturas escalables y mejores prácticas de desarrollo.",
+            "tags": ["escalabilidad", "arquitectura", "crecimiento"]
+          },
+          {
+            "id": "q12",
+            "question": "¿Qué pasa con el código fuente?",
+            "answer": "El código fuente es 100% del cliente. Al finalizar el proyecto, entregamos todo el código, documentación y accesos. También proporcionamos documentación técnica completa.",
+            "tags": ["código", "propiedad", "documentación"]
           }
         ]
       }

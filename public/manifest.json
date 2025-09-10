@@ -1,0 +1,83 @@
+{
+  "name": "EvoSystems - Desarrollo de Software Profesional",
+  "short_name": "EvoSystems",
+  "description": "Desarrollo de software profesional: aplicaciones web, móviles, sistemas ERP, integraciónes y soluciones tecnológicas innovadoras.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["business", "productivity", "developer"],
+  "lang": "es-MX",
+  "scope": "/",
+  "screenshots": [
+    {
+      "src": "/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "EvoSystems Desktop"
+    },
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "EvoSystems Mobile"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "shortcuts": [
+    {
+      "name": "Servicios",
+      "short_name": "Servicios",
+      "url": "/services",
+      "icons": [
+        {
+          "src": "/shortcut-services.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contacto",
+      "short_name": "Contacto", 
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/shortcut-contact.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "WhatsApp",
+      "short_name": "WhatsApp",
+      "url": "https://wa.me/525500000000?text=Hola%2C%20me%20interesa%20conocer%20m%C3%A1s%20sobre%20los%20servicios%20de%20desarrollo%20de%20software%20de%20EvoSystems",
+      "icons": [
+        {
+          "src": "/shortcut-whatsapp.png",
+          "sizes": "96x96", 
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

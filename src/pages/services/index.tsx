@@ -15,6 +15,7 @@ import {
   CheckIcon,
   WhatsAppIcon,
 } from "@/components/icons";
+import { WaveBackground } from "@/components/wave-background";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 
@@ -27,13 +28,90 @@ export default function ServicesPage() {
           content="Servicios de desarrollo de software: aplicaciones web, móviles, sistemas ERP, integraciónes y análisis de datos."
           name="description"
         />
+        <meta
+          content="desarrollo web, aplicaciones móviles, ERP, sistemas, integraciones, análisis datos, React, Node.js"
+          name="keywords"
+        />
+        
+        {/* Structured Data for Services */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Service",
+              "serviceType": "Software Development",
+              "provider": {
+                "@type": "Organization",
+                "name": "EvoSystems"
+              },
+              "areaServed": "México",
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Servicios de Desarrollo de Software",
+                "itemListElement": [
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Desarrollo Web",
+                      "description": "Aplicaciones web modernas, responsivas y escalables con React, Next.js y Node.js"
+                    }
+                  },
+                  {
+                    "@type": "Offer", 
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Aplicaciones Móviles",
+                      "description": "Apps nativas y multiplataforma para iOS y Android con React Native y Flutter"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service", 
+                      "name": "Sistemas ERP",
+                      "description": "Implementación y personalización de sistemas ERP con Odoo"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Integraciones",
+                      "description": "Conectamos sistemas existentes para automatizar procesos"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Análisis de Datos", 
+                      "description": "Dashboards interactivos y reportes automatizados con Power BI, Tableau y Python"
+                    }
+                  },
+                  {
+                    "@type": "Offer",
+                    "itemOffered": {
+                      "@type": "Service",
+                      "name": "Aplicaciones de Escritorio",
+                      "description": "Software multiplataforma con Electron, Tauri y tecnologías nativas"
+                    }
+                  }
+                ]
+              }
+            })
+          }}
+          type="application/ld+json"
+        />
       </Head>
 
       <Navbar />
 
       {/* Hero Section */}
-      <section className="py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
-        <div className="max-w-6xl mx-auto px-6 text-center">
+      <section className="relative py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 overflow-hidden">
+        <WaveBackground className="absolute inset-0 z-10" variant="hero" />
+        
+        <div className="relative z-20 max-w-6xl mx-auto px-6 text-center">
           <h1 className={`${title({ size: "lg" })} text-white mb-6`}>
             Nuestros{" "}
             <span className={title({ color: "blue", size: "lg" })}>

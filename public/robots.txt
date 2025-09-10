@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.goat-hiking.com
+Host: https://www.evosystems.dev
 
 # Sitemaps
-Sitemap: https://www.goat-hiking.com/sitemap.xml
+Sitemap: https://www.evosystems.dev/sitemap.xml

@@ -39,6 +39,59 @@ export default function IndexPage() {
           name="keywords"
         />
         <meta content="EvoSystems" property="og:site_name" />
+        
+        {/* Structured Data */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "EvoSystems",
+              "url": "https://www.evosystems.dev",
+              "logo": "https://www.evosystems.dev/logo.png",
+              "description": "Desarrollo de software profesional: aplicaciones web, móviles, sistemas ERP, integraciónes y soluciones tecnológicas innovadoras.",
+              "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "MX",
+                "addressLocality": "México"
+              },
+              "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+525500000000",
+                "contactType": "customer service",
+                "availableLanguage": ["Spanish"]
+              },
+              "sameAs": [
+                "https://linkedin.com/company/evosystems",
+                "https://github.com/evosystems"
+              ],
+              "foundingDate": "2019",
+              "numberOfEmployees": "3-10",
+              "areaServed": {
+                "@type": "Country",
+                "name": "México"
+              },
+              "knowsAbout": [
+                "Desarrollo Web",
+                "Aplicaciones Móviles", 
+                "Sistemas ERP",
+                "Integraciones",
+                "Análisis de Datos",
+                "React",
+                "Next.js",
+                "Node.js",
+                "Python",
+                "Odoo"
+              ],
+              "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "5.0",
+                "reviewCount": "50"
+              }
+            })
+          }}
+          type="application/ld+json"
+        />
         <meta
           content="EvoSystems - Desarrollo de Software Profesional"
           property="og:title"
@@ -366,6 +419,156 @@ export default function IndexPage() {
                 de usuario excepcional.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Studies Section */}
+      <section className="py-20 bg-slate-800">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <h2 className={`${title({ size: "md" })} mb-4 text-white`}>
+              Casos de{" "}
+              <span className={title({ color: "blue", size: "md" })}>
+                éxito
+              </span>
+            </h2>
+            <p className={`${subtitle()} text-slate-400`}>
+              Proyectos reales que han transformado negocios y generado resultados excepcionales
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Case Study 1 - E-commerce */}
+            <Card className="bg-slate-900/50 border border-slate-700/50 hover:border-blue-500/50 transition-all duration-300 shadow-xl hover:scale-105">
+              <CardBody className="p-8">
+                <div className="bg-blue-600/20 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                  <WebIcon className="text-blue-400" size={24} />
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-white">Tienda Online - Moda</h3>
+                <p className="text-slate-400 mb-4 text-sm">
+                  Plataforma e-commerce completa para boutique de moda con +500 productos
+                </p>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center gap-2">
+                    <StarIcon className="text-yellow-500" size={16} />
+                    <span className="text-sm text-slate-300">+200% ventas online</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckIcon className="text-green-400" size={16} />
+                    <span className="text-sm text-slate-300">Tiempo carga: 2.1s</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckIcon className="text-green-400" size={16} />
+                    <span className="text-sm text-slate-300">SEO Score: 95/100</span>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-1 mb-4">
+                  <Chip className="bg-blue-600/20 text-blue-300" size="sm" variant="flat">
+                    Next.js
+                  </Chip>
+                  <Chip className="bg-purple-600/20 text-purple-300" size="sm" variant="flat">
+                    Stripe
+                  </Chip>
+                  <Chip className="bg-green-600/20 text-green-300" size="sm" variant="flat">
+                    PostgreSQL
+                  </Chip>
+                </div>
+                <p className="text-xs text-slate-500">Sector: Retail • Timeline: 10 semanas</p>
+              </CardBody>
+            </Card>
+
+            {/* Case Study 2 - ERP System */}
+            <Card className="bg-slate-900/50 border border-slate-700/50 hover:border-emerald-500/50 transition-all duration-300 shadow-xl hover:scale-105">
+              <CardBody className="p-8">
+                <div className="bg-emerald-600/20 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                  <ERPIcon className="text-emerald-400" size={24} />
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-white">ERP Manufactura</h3>
+                <p className="text-slate-400 mb-4 text-sm">
+                  Sistema integrado para empresa manufacturera con 150+ empleados
+                </p>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center gap-2">
+                    <StarIcon className="text-yellow-500" size={16} />
+                    <span className="text-sm text-slate-300">-40% tiempo procesos</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckIcon className="text-green-400" size={16} />
+                    <span className="text-sm text-slate-300">100% trazabilidad</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckIcon className="text-green-400" size={16} />
+                    <span className="text-sm text-slate-300">ROI: 250% año 1</span>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-1 mb-4">
+                  <Chip className="bg-emerald-600/20 text-emerald-300" size="sm" variant="flat">
+                    Odoo
+                  </Chip>
+                  <Chip className="bg-orange-600/20 text-orange-300" size="sm" variant="flat">
+                    Python
+                  </Chip>
+                  <Chip className="bg-blue-600/20 text-blue-300" size="sm" variant="flat">
+                    PostgreSQL
+                  </Chip>
+                </div>
+                <p className="text-xs text-slate-500">Sector: Manufactura • Timeline: 16 semanas</p>
+              </CardBody>
+            </Card>
+
+            {/* Case Study 3 - Mobile App */}
+            <Card className="bg-slate-900/50 border border-slate-700/50 hover:border-purple-500/50 transition-all duration-300 shadow-xl hover:scale-105">
+              <CardBody className="p-8">
+                <div className="bg-purple-600/20 w-12 h-12 rounded-lg flex items-center justify-center mb-6">
+                  <MobileIcon className="text-purple-400" size={24} />
+                </div>
+                <h3 className="text-xl font-bold mb-3 text-white">App Delivery</h3>
+                <p className="text-slate-400 mb-4 text-sm">
+                  Aplicación móvil para servicio de delivery con geolocalización en tiempo real
+                </p>
+                <div className="space-y-2 mb-4">
+                  <div className="flex items-center gap-2">
+                    <StarIcon className="text-yellow-500" size={16} />
+                    <span className="text-sm text-slate-300">10K+ descargas</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckIcon className="text-green-400" size={16} />
+                    <span className="text-sm text-slate-300">Rating: 4.8/5</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <CheckIcon className="text-green-400" size={16} />
+                    <span className="text-sm text-slate-300">+300 entregas/día</span>
+                  </div>
+                </div>
+                <div className="flex flex-wrap gap-1 mb-4">
+                  <Chip className="bg-purple-600/20 text-purple-300" size="sm" variant="flat">
+                    React Native
+                  </Chip>
+                  <Chip className="bg-yellow-600/20 text-yellow-300" size="sm" variant="flat">
+                    Firebase
+                  </Chip>
+                  <Chip className="bg-red-600/20 text-red-300" size="sm" variant="flat">
+                    Maps API
+                  </Chip>
+                </div>
+                <p className="text-xs text-slate-500">Sector: Logística • Timeline: 12 semanas</p>
+              </CardBody>
+            </Card>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button
+              isExternal
+              as={Link}
+              className="bg-blue-600/90 backdrop-blur-md hover:bg-blue-700/90 text-white font-semibold px-8 py-3 shadow-lg border border-blue-500/30"
+              href={siteConfig.links.whatsapp}
+              rel="noopener noreferrer"
+              size="lg"
+            >
+              <WhatsAppIcon size={20} />
+              Ver más casos de éxito
+            </Button>
           </div>
         </div>
       </section>

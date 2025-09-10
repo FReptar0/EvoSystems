@@ -14,7 +14,31 @@ export default function Document() {
           content="EvoSystems - Desarrollo de software profesional: aplicaciones web, móviles, sistemas ERP y soluciones tecnológicas."
           name="description"
         />
+        
+        {/* PWA Manifest */}
+        <link href="/manifest.json" rel="manifest" />
+        <meta content="#2563eb" name="theme-color" />
+        <meta content="yes" name="apple-mobile-web-app-capable" />
+        <meta content="#2563eb" name="apple-mobile-web-app-status-bar-style" />
+        <meta content="EvoSystems" name="apple-mobile-web-app-title" />
+        <link href="/icon-192x192.png" rel="apple-touch-icon" />
+        
         <link href="/favicon.ico" rel="icon" />
+
+        {/* Preload critical resources */}
+        <link
+          href="https://fonts.googleapis.com"
+          rel="preconnect"
+        />
+        <link
+          href="https://fonts.gstatic.com"
+          rel="preconnect"
+          crossOrigin="anonymous"
+        />
+        <link
+          href="https://www.googletagmanager.com"
+          rel="preconnect"
+        />
 
         {/* Metadatos para redes sociales */}
         <meta
@@ -57,6 +81,22 @@ export default function Document() {
         <meta
           content="https://www.evosystems.dev/social-card.png"
           name="twitter:url"
+        />
+        
+        {/* Google Analytics 4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-XXXXXXXXXX', {
+                page_title: document.title,
+                page_location: window.location.href,
+              });
+            `,
+          }}
         />
       </Head>
       <body

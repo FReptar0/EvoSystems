@@ -25,6 +25,10 @@ export const siteConfig = {
       label: "Contacto",
       href: "/contact",
     },
+    {
+      label: "FAQ",
+      href: "/faq",
+    },
   ],
   navMenuItems: [
     {
@@ -66,6 +70,10 @@ export const siteConfig = {
     {
       label: "Contacto",
       href: "/contact",
+    },
+    {
+      label: "FAQ",
+      href: "/faq",
     },
     {
       label: "Términos y Condiciones",
