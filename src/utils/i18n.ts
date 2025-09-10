@@ -1,14 +1,17 @@
-import { useRouter } from 'next/router';
 import { translations, Translations } from '@/config/i18n';
 
-// Utility for getting current locale
+// Utility for getting current locale (for server-side or components without router)
 export const getCurrentLocale = (): 'es' | 'en' => {
   if (typeof window === 'undefined') {
     return 'es'; // Default for SSR
   }
   
-  const router = useRouter();
-  return (router.locale as 'es' | 'en') || 'es';
+  // Get locale from URL pathname
+  const pathname = window.location.pathname;
+  if (pathname.startsWith('/en')) {
+    return 'en';
+  }
+  return 'es';
 };
 
 // Utility for getting translations with fallback

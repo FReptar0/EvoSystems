@@ -185,10 +185,10 @@ export default function ContactPage() {
                     </div>
 
                     <div>
-                      <label className="block text-sm font-medium text-slate-300 mb-3">
+                      <label className="block text-sm font-medium text-slate-300 mb-3" htmlFor="service-selection">
                         Servicio de interés
                       </label>
-                      <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                      <div id="service-selection" className="grid grid-cols-2 md:grid-cols-3 gap-2" role="group" aria-labelledby="service-selection">
                         {services.map((service) => (
                           <Button
                             key={service}
@@ -208,10 +208,11 @@ export default function ContactPage() {
                     </div>
 
                     <div>
-                      <label className="block text-sm font-medium text-slate-300 mb-2">
+                      <label className="block text-sm font-medium text-slate-300 mb-2" htmlFor="message-input">
                         Mensaje
                       </label>
                       <textarea
+                        id="message-input"
                         className="w-full p-3 bg-slate-800/50 border border-slate-600 rounded-lg text-white placeholder-slate-400 min-h-[120px] resize-y"
                         placeholder="Cuéntanos sobre tu proyecto, objetivos, timeline y presupuesto aproximado..."
                         value={formData.message}

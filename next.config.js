@@ -7,7 +7,7 @@ const nextConfig = {
   i18n: {
     locales: ['es', 'en'],
     defaultLocale: 'es',
-    localeDetection: true,
+    localeDetection: false,
     // Remove domain-based routing to use path-based routing
     // Default: / (Spanish), /en (English)
   },

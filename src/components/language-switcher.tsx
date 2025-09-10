@@ -103,7 +103,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
         selectionMode="single"
         className="min-w-[160px]"
       >
-        {locales?.map((localeCode) => {
+        {(locales || []).map((localeCode) => {
           const lang = languages[localeCode as keyof typeof languages];
           if (!lang) return null;
           
@@ -153,7 +153,7 @@ export const MobileLanguageSwitcher: React.FC<{ className?: string }> = ({ class
         className="appearance-none bg-slate-800/50 border border-slate-700 text-white text-sm rounded-lg px-3 py-2 pr-8 hover:border-slate-600 focus:outline-none focus:border-blue-500 transition-colors"
         aria-label="Select language"
       >
-        {locales?.map((localeCode) => {
+        {(locales || []).map((localeCode) => {
           const lang = languages[localeCode as keyof typeof languages];
           if (!lang) return null;
           
